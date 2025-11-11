@@ -12,7 +12,7 @@ int main() {
             cout << 'B' << " ";
         } else if (i >= 70) {
             cout << 'C' << " ";
-        } else if (i <= 60) {
+        } else if (i >= 60) {
             cout << 'D' << " ";
         } else {
             cout << 'F' << " ";
