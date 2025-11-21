@@ -6,7 +6,7 @@ int main() {
     int b = 5;
     int temp;
     temp = a;
-    a = b
+    a = b;
     b = temp;
     cout << a << endl << b;
     return 0;
