@@ -6,9 +6,9 @@ int main() {
     cin >> a >> b;
     int ans;
     if (a > b) {
-        ans = a - b
+        ans = a - b;
     } else {
-        ans = b - a
+        ans = b - a;
     }
     cout << ans;
     return 0;
