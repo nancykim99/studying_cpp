@@ -5,11 +5,11 @@ int main() {
     double a;
     cin >> a;
     if (a >= 1.0) {
-        cout >> "High";
+        cout << "High";
     } else if (a >= 0.5) {
-        cout >> "Middle";
+        cout << "Middle";
     } else {
-        cout >> "Low";
+        cout << "Low";
     }
     return 0;
 }
