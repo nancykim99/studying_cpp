@@ -6,7 +6,7 @@ int main() {
     cin >> n;
     int area = n * n;
     cout << area << endl;
-    if (area < 5) {
+    if (n < 5) {
         cout << "tiny";
     }
     return 0;
