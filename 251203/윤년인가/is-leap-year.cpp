@@ -10,6 +10,8 @@ int main() {
         } else {
             cout << "true";
         }
+    } else {
+        cout << "false";
     }
     return 0;
 }
