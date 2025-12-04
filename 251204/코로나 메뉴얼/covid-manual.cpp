@@ -24,7 +24,7 @@ int main() {
             }
         }
         if (option == 'A') {
-            cnt += 1
+            cnt += 1;
         }
     }
     if (cnt >= 2) {
