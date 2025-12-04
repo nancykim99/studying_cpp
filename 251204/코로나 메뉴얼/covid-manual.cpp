@@ -6,6 +6,9 @@ int main() {
     // Please write your code here.
     int cnt = 0;
     for (int i = 0; i < 3; i++) {
+        char yn;
+        int t;
+        cin >> yn >> t;
         char option = 'Z';
         if (yn == 'Y') {
             if (t >= 37) {
