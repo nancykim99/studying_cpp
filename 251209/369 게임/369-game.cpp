@@ -12,11 +12,11 @@ int main() {
         } else {
             string s = to_string(i);
             if (s.find("3") != string::npos) {
-    	        cout << i << " ";
+    	        cout << 0 << " ";
             } else if (s.find("6") != string::npos) {
-    	        cout << i << " ";
+    	        cout << 0 << " ";
             } else if (s.find("9") != string::npos) {
-    	        cout << i << " ";
+    	        cout << 0 << " ";
             }
             else {
                 cout << i << " ";
